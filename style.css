@@ -17,5 +17,5 @@ p {
 }
 
 .important {
-	text-decoration: underline;
+	border: 4px solid darkblue;
 }
