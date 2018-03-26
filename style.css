@@ -1,21 +1,44 @@
 h1 {
-	color: darkblue;
+	font-family: "Lato", arial, sans-serif;
+	color: black;
+	font-size: 34px;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 h2 {
-	color: blue;
+	font-family: "Lato", arial, sans-serif;
+	font-size: 17px;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #b31450;
+    letter-spacing: 1px;
+    border-bottom: 2px dotted #b31450;
+}
+
+h3 {
+	font-family: "Lato", arial, sans-serif;
+	font-size: 25px;
+    line-height: 31px;
+    color: #404042
 }
 
 p {
-	color: grey;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #929497;
 }
 
 .placeholder {
-	border: 5px solid orange;
-	padding: 5px;
-	color: orange;
+	font-family: "Lato", arial, sans-serif;
+	color: #E2E4E7;
 }
 
 .important {
-	text-decoration: underline;
+}
+
+.riga-grigia {
+    width: 100%;
+    border-bottom: 1px solid #929497;
+    height: 0;
 }
