@@ -1,4 +1,8 @@
-h1 {
+body {
+		background-color: #e6e6ff;
+	}
+
+	h1 {
 	font-family: "Lato", arial, sans-serif;
 	color: black;
 	font-size: 34px;
@@ -7,38 +11,54 @@ h1 {
 }
 
 h2 {
+	background-color: #bccad6;
 	font-family: "Lato", arial, sans-serif;
-	font-size: 17px;
-    padding: 0;
-    font-weight: bold;
+	font-size: 22px;
+    padding: 3px;
+		box-shadow: -3px 3px #8d9db6;
     text-transform: uppercase;
-    color: #b31450;
-    letter-spacing: 1px;
-    border-bottom: 2px dotted #b31450;
+    color: #8d9db6;
+    letter-spacing: 2px;
+    border-bottom: 0px solid #f18973;
+		margin-bottom: 25px;
 }
 
 h3 {
-	font-family: "Lato", arial, sans-serif;
-	font-size: 25px;
-    line-height: 31px;
-    color: #404042
+	font-family: "lato", arial, sans-serif;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: 19px;
+	text-transform: uppercase;
+    line-height: 15px;
+    color: #8d9db6;
+	background-color: #e6e6ff;
+  padding: 8px;
+	box-shadow: -3px 3px #8d9db6;
 }
 
 p {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Lato", arial, serif;
 	color: #929497;
+	margin-left: 10px;
+	margin-bottom: 25px;
 }
 
 .placeholder {
 	font-family: "Lato", arial, sans-serif;
-	color: #E2E4E7;
+	color: darkgrey;
+	font-style: italic;
 }
 
 .important {
+	background-color: #8d9db6;
+	text-shadow: -2px 2px #667292;
+	box-shadow: -4.5px 4.5px #667292;
+    color: #e6e6ff;
+    padding: 10px;
 }
 
 .riga-grigia {
-    width: 100%;
-    border-bottom: 1px solid #929497;
-    height: 0;
+    width: 0%;
+    border-bottom: 0px solid #929497;
+    height: 0%;
 }
