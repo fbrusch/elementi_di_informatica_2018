@@ -1,44 +1,86 @@
+body{
+	color: #332d1e;
+	font-family: "Lato", arial, sans-serif;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+p{
+	margin-top:0.2em;
+	margin-bottom:0.2em;
+}
+
 h1 {
 	font-family: "Lato", arial, sans-serif;
-	color: black;
+	color: #c84b1e;
 	font-size: 34px;
 	text-transform: uppercase;
 	text-align: center;
+	border: 3px solid #facc53;
+	background-color: #facc53;
+	padding: 5px;
+}
+.indice{
+	font-family: "Lato", arial, sans-serif;
+	text-transform: uppercase;
+	color:#c84b1e;
+	line-height: 1.5em;
+	list-style: none;
+	font-weight: bold;
+	border-left: 7px solid #f76d50;
+	padding: 1em;
+}
+.indice a{
+	color:#c84b1e;
+	line height: 4px;
 }
 
+.indice a:hover {
+	border-bottom: 3px solid #facc53;
+	transition: 0.25s;
+}
 h2 {
 	font-family: "Lato", arial, sans-serif;
-	font-size: 17px;
+	font-size: 25px;
     padding: 0;
     font-weight: bold;
     text-transform: uppercase;
-    color: #b31450;
+    color: #c84b1e;
     letter-spacing: 1px;
-    border-bottom: 2px dotted #b31450;
+    border-bottom: 2px dotted #e4b72d;
 }
 
 h3 {
 	font-family: "Lato", arial, sans-serif;
-	font-size: 25px;
-    line-height: 31px;
-    color: #404042
-}
-
-p {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #929497;
+	font-size: 17px;
+	text-transform:uppercase;
+  line-height: normal;
+  color: #f76d50;
 }
 
 .placeholder {
 	font-family: "Lato", arial, sans-serif;
-	color: #E2E4E7;
+  color: #f19637;
+	border-bottom: 2px solid #e4b72d;
+	padding:2px;
+	text-transform: uppercase;
 }
 
-.important {
+.titolo a{
+	text-decoration: none;
+	color:#f19637;
+	margin-left: 40px;
 }
 
-.riga-grigia {
-    width: 100%;
-    border-bottom: 1px solid #929497;
-    height: 0;
+a {
+	color:#f19637;
+	text-decoration: none;
+	line-height: 1em;
+}
+
+.lezioni{
+	font-weight: bold;
+	border-bottom: 1px solid #f76d50;
+
 }
