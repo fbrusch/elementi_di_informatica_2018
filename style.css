@@ -1,44 +1,111 @@
-h1 {
-	font-family: "Lato", arial, sans-serif;
-	color: black;
-	font-size: 34px;
-	text-transform: uppercase;
-	text-align: center;
+*{
+    border:0px;
+    margin:0px;
+    padding: 0px;
+    overflow: inherit;
 }
 
-h2 {
-	font-family: "Lato", arial, sans-serif;
-	font-size: 17px;
-    padding: 0;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #b31450;
-    letter-spacing: 1px;
-    border-bottom: 2px dotted #b31450;
+@font-face{
+    font-family: montserrat;
+    src: url(montserrat-regular.ttf);
 }
 
-h3 {
-	font-family: "Lato", arial, sans-serif;
-	font-size: 25px;
-    line-height: 31px;
-    color: #404042
+@font-face{
+    font-family: open-sans;
+    src: url();
 }
 
-p {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #929497;
+body{
+    background-color:  grey;
+    font-family: montserrat, sans-serif;
 }
 
-.placeholder {
-	font-family: "Lato", arial, sans-serif;
-	color: #E2E4E7;
-}
-
-.important {
-}
-
-.riga-grigia {
+header{
+    text-align: center;
     width: 100%;
-    border-bottom: 1px solid #929497;
-    height: 0;
+    background-color: cadetblue;
+    height: auto;
+}
+
+#titolo{
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+#anno{
+    border: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    margin:auto;
+    flex: 1;
+    width: 750px;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin:auto;
+    flex: 1;
+    width: 685px;
+    margin-top: 20px;
+}
+
+.cell{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-around;
+    height: 110px;
+    width: 90px;
+    text-align: center;
+}
+
+.prof{
+    flex-shrink: 1;
+    font-size: 0.8em;
+}
+
+.numero{
+    font-size: 4em;
+    flex-grow: 1;
+}
+
+.data{
+    flex-shrink: 1;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.link{
+    display: block;
+    color: cadetblue;
+}
+
+main{
+    margin-top: 20px;
+    width: 700px;
+    position: absolute;
+}
+
+p{
+    text-align: justify;
 }
