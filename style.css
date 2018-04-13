@@ -12,7 +12,7 @@
 
 @font-face{
     font-family: open-sans;
-    src: url();
+    src: url(opensans-regular.ttf);
 }
 
 body{
@@ -48,8 +48,55 @@ header{
     align-content: flex-end;
     justify-content: space-around;
     margin:auto;
+    padding: 10px;
     flex: 1;
     width: 750px;
+}
+
+.contenitore{
+    position: relative;
+    height: 22.5px;
+    width: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.menulink{
+}
+
+.menulink::before, .menulink::after{
+    position: absolute;
+	top: 100%;
+    left: 2%;
+	width: 96%;
+	height: 1px;
+	background: #000;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform: scale(0.85);
+	-moz-transform: scale(0.85);
+	transform: scale(0.85);
+}
+
+.menulink::after{
+    opacity: 0;
+	-webkit-transition: top 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: top 0.3s, opacity 0.3s, -moz-transform 0.3s;
+	transition: top 0.3s, opacity 0.3s, transform 0.3s;
+}
+
+.menulink:hover::before,.menulink:hover::after
+{
+    -webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.menulink:hover::after{
+    top: 0%;
+    opacity: 1;
 }
 
 .flexbox{
@@ -74,6 +121,13 @@ header{
     height: 110px;
     width: 90px;
     text-align: center;
+    background-color: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.cell:hover{
+    background-color: antiquewhite;
+    transition: all 0.2s ease-in-out;
 }
 
 .prof{
@@ -96,16 +150,52 @@ a{
 }
 
 .link{
-    display: block;
     color: cadetblue;
 }
 
 main{
     margin-top: 20px;
-    width: 700px;
+    width: 685px;
     position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
 }
 
 p{
+    font-family: open-sans, sans-serif;
     text-align: justify;
+}
+
+h4{
+    padding: 10px;
+    padding-left: 0;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+h5{
+    padding: 5px;
+    padding-left: 0;
+    font-size: 1em;
+}
+
+li{
+    margin-left: 40;
+}
+
+#tornasu{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border: solid 1px;
+    padding: 15px;
+    font-family: open-sans;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.lista{
+    font-family: open-sans, sans-serif;
+    
 }
