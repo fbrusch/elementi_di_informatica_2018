@@ -6,15 +6,9 @@
     padding:0px;
 }
 
-@font-face{
-    font-family: montserrat;
-    src: url(montserrat-regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-@font-face{
-    font-family: open-sans;
-    src: url(opensans-regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html{
     min-height: 100%;
@@ -33,7 +27,7 @@ header{
     width: 100%;
     background-color: #934F53;
     height: auto;
-    font-family: montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 #titolo{
@@ -42,6 +36,8 @@ header{
     padding-bottom: 0px;
     padding-top: 10px;
     color: #FFFEFF;
+    width: 75%;
+    margin: auto;
 }
 
 #anno{
@@ -50,6 +46,8 @@ header{
     margin-bottom: 20px;
     padding: 0px;
     color: #FFFEFF;
+    width: 75%;
+    margin: auto;
 }
 
 #navbar{
@@ -139,7 +137,7 @@ header{
     background-color: #FFFEFF;
     transition: all 0.3s ease-in-out;
     box-shadow: 3px 3px 6px #555;
-    font-family: montserrat, sans-serif
+    font-family: Montserrat, sans-serif
 }
 
 .cell:hover{
@@ -172,7 +170,7 @@ a{
 
 .link{
     color: #934F53;
-    font-family: montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-decoration: none;
     word-wrap: break-word;
 }
@@ -204,7 +202,7 @@ main{
 }
 
 p{
-    font-family: open-sans, sans-serif;
+    font-family: Open Sans, sans-serif;
     text-align: justify;
 }
 
@@ -213,14 +211,14 @@ h4{
     padding-left: 0;
     font-size: 1.5em;
     margin-top: 5px;
-    font-family: montserrat, sans-serif
+    font-family: Montserrat, sans-serif
 }
 
 h5{
     padding: 5px;
     padding-left: 0;
     font-size: 1em;
-    font-family: montserrat, sans-serif
+    font-family: Montserrat, sans-serif
 }
 
 li{
@@ -232,7 +230,7 @@ li{
     bottom: 60px;
     right: 50px;
     padding: 15px;
-    font-family: open-sans;
+    font-family: Open Sans, sans-serif;
     height: 20px;
     width: 20px;
     text-align: center;
@@ -241,7 +239,7 @@ li{
 }
 
 .lista{
-    font-family: open-sans, sans-serif;
+    font-family: Open Sans, sans-serif;
     
 }
 
