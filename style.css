@@ -1,13 +1,23 @@
 h1 {
-	color: darkblue;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+
 }
 
 h2 {
-	color: blue;
+	font-family: "Lato", arial, sans-serif;
+	font-size: 17px;
+font-weight: bold;
+text-transform: uppercase;
+color: #b31450;
+letter-spacing: 1px;
+    border-bottom: 2px dotted #b31450;
 }
 
 p {
 	color: grey;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .placeholder {
