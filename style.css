@@ -25,10 +25,14 @@ body{
 header{
     text-align: center;
     width: 100%;
-    background-color: #934F53;
+    background-color: #00A79D;
     height: auto;
     font-family: 'Montserrat', sans-serif;
 }
+
+
+
+
 
 #titolo{
     border-bottom: 0px;
@@ -122,6 +126,12 @@ header{
     max-width: 660px;
     margin-top: 20px;
     padding-bottom: 55px;
+    animation:opacity 3s;
+}
+
+@keyframes opacity{
+  from{opacity:0;}
+  to{opacity: 1;}
 }
 
 .cell{
@@ -136,13 +146,15 @@ header{
     background-color: #FFFEFF;
     transition: all 0.3s ease-in-out;
     box-shadow: 3px 3px 6px #555;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 .cell:hover{
-    background-color: #C9ADB1;
+    background-color: #00A79D;
     transition: all 0.2s ease-in-out;
     box-shadow: 3px 3px 12px #444;
+    color: white;
 }
 
 .prof{
@@ -154,7 +166,6 @@ header{
 .numero{
     font-size: 4em;
     flex-grow: 1;
-    color: #2B061E;
 }
 
 .data{
@@ -168,7 +179,7 @@ a{
 }
 
 .link{
-    color: #934F53;
+    color: #00A79D;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     word-wrap: break-word;
@@ -176,7 +187,7 @@ a{
 
 .link:hover{
     text-decoration: underline;
-    text-decoration-skip: edges;   
+    text-decoration-skip: edges;
 }
 
 main{
@@ -239,11 +250,11 @@ li{
 
 .lista{
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
 footer{
-    background-color: #934F53;
+    background-color: #00A79D;
     width: 100%;
     height: 50px;
     position: absolute;
